@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B35A807627248480006508C8 /* swiftuiMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A807527248480006508C8 /* swiftuiMVVMApp.swift */; };
-		B35A807827248480006508C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A807727248480006508C8 /* ContentView.swift */; };
+		B35A807827248480006508C8 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A807727248480006508C8 /* PeopleView.swift */; };
 		B35A807A27248481006508C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A807927248481006508C8 /* Assets.xcassets */; };
 		B35A807D27248481006508C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A807C27248481006508C8 /* Preview Assets.xcassets */; };
+		B35A8084272484C3006508C8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A8083272484C3006508C8 /* Person.swift */; };
+		B35A80862724853B006508C8 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A80852724853B006508C8 /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B35A807227248480006508C8 /* swiftuiMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A807527248480006508C8 /* swiftuiMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiMVVMApp.swift; sourceTree = "<group>"; };
-		B35A807727248480006508C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B35A807727248480006508C8 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		B35A807927248481006508C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35A807C27248481006508C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B35A8083272484C3006508C8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B35A80852724853B006508C8 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B35A807527248480006508C8 /* swiftuiMVVMApp.swift */,
-				B35A807727248480006508C8 /* ContentView.swift */,
+				B35A807727248480006508C8 /* PeopleView.swift */,
+				B35A8083272484C3006508C8 /* Person.swift */,
+				B35A80852724853B006508C8 /* PersonViewModel.swift */,
 				B35A807927248481006508C8 /* Assets.xcassets */,
 				B35A807B27248481006508C8 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35A807827248480006508C8 /* ContentView.swift in Sources */,
+				B35A8084272484C3006508C8 /* Person.swift in Sources */,
+				B35A807827248480006508C8 /* PeopleView.swift in Sources */,
 				B35A807627248480006508C8 /* swiftuiMVVMApp.swift in Sources */,
+				B35A80862724853B006508C8 /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
